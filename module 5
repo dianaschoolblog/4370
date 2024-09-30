@@ -1,0 +1,20 @@
+A <- matrix(1:100, nrow=10)
+B <- matrix(1:1000, nrow=10)
+solve(A)
+solve(B)
+det(A)
+det(B)
+t(A)
+t(B)
+a<- 1:10
+b<-11:20
+A%%a
+B%%b
+a<-1:10
+b<-1:10
+A%%A
+B%%(B)
+S=matrix(2:5, nrow=2)
+det(S)
+solve(A)
+solve(B)
