@@ -1,0 +1,10 @@
+mtcars
+head(mtcars)
+list(mtcars,6)
+typeof(mtcars)
+s3 <- list(Make = "Toyota", Year = "2010", Model = "Prius")
+s3
+
+setClass("Vehicle", slots = list(Make = "character", Year = "numeric", Model = "character"))
+s4 <- new("Vehicle", Make = "Toyota", Year = 2010, Model = "Prius")
+s4
