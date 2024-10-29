@@ -1,0 +1,3 @@
+ barplot(Cigarettes$packs, main = " Cigarette Prices Per State", xlab = "States", ylab = "Price by Dollar", names.arg = Cigarettes$rownames, las = 2)
+ ggplot(Cigarettes, aes(x = rownames, y = packs, size = income)) + geom_point() + labs(title = "Price of Cigarette Packs by State and Income", xlab = "States", ylab = "Price of Packs")
+ xyplot(Cigarettes$packs ~ Cigarettes$income, grid = TRUE, main = "Income VS Cigarette Pack Price", ylab = "Cigarette Price", xlab = "Income", group = Cigarettes$income)
