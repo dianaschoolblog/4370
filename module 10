@@ -1,0 +1,9 @@
+Package: NBAOffense
+Title: NBA Offensive Player Statisics
+Version: 0.0.0.9000
+Authors: Diana May <dianamay@usf.edu>
+Description: The package will provide a comparison of the offensive statistics of NBA players. This can
+             be utilized to observe the similarities or differnces between player matchups.
+Depends: R(>= 4.1.1)
+License: CCO
+LazyData: TRUE 
